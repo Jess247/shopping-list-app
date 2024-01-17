@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Rubik', sans-serif;
-    background-color: #EEF0F4;
-    color: #432000;
+    font-family: 'Montserrat', sans-serif;    
+    background-color: #EBEBEB;
+    color: #190933;
     user-select: none;
 }
 
@@ -16,34 +17,34 @@ html, body {
 
 img {
     width: 150px;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 input {
-    color: #432000;
+    color: #190933;
     background-color: #DCE1EB;
     border: 0;
     padding: 15px;
     border-radius: 8px;
     font-size: 20px;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
-    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;    margin: 10px 0;
 }
 
 button {
     color: #FDFDFD;
-    background-color: #AC485A;
+    background-color: #665687;
     border: 0;
     padding: 15px;
     border-radius: 8px;
     font-size: 20px;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;    transition: transform .5s ease-in-out;
 }
 
 button:hover {
-    background-color: #432000;
+    background-color: #190933;
+    transform:scale(1.05);
     cursor: pointer;
 }
 
@@ -62,10 +63,16 @@ ul li {
     border-radius: 8px;
     flex-grow: 1;
     text-align: center;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    transition: transform .5s ease-in-out;
 }
 
 ul li:hover {
-    background-color: #FFECC7;
+    background-color: #EF767A;
+    transform: scale(1.05);
     cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }
